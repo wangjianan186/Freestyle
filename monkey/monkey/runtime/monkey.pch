@@ -1,0 +1,31 @@
+
+//
+//  monkey.pch
+//  monkey
+//
+//  Created by Bigbang on 2016/12/19.
+//  Copyright © 2016年 Bigbang. All rights reserved.
+//
+
+#ifndef monkey_pch
+#define monkey_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+/*
+ #ifdef _OBJC_(OBJC前后是两条下划线)和#endif可以将OC的头文件与C语言的源文件进行有效的隔离。也就是说，你在OC头文件前后加了这个条件编译之后，编译器便不再将OC的头文件拷贝到C语言的源文件中，它只会把OC的头文件拷贝到OC的源文件中，所以之前的错误都消失了。
+
+  PCH文件可以很方便的将多个文件中都要使用的头文件一次性导入到项目中所有的源文件中，同时，你也可以在PCH文件中定义全局使用的宏，这种操作可以有效帮你节约开发时间。但是，同时你也应该注意到，PCH文件的使用，无形中增加了项目编译的时间，应该有选择性的慎重使用。
+
+原文链接：http://www.jianshu.com/p/6d74ef67d05a
+*/
+
+#ifdef __OBJC__  //判断一下 之后OC文件才能导入下面头文件
+
+#import "JNPerson.h"
+#import "MonkeyHeader.h"
+
+#endif
+
+#endif /* monkey_pch */
