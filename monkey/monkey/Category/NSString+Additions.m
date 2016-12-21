@@ -7,6 +7,7 @@
 //
 
 #import "NSString+Additions.h"
+#import "CoreConst.h"
 
 @implementation NSString (Additions)
 
@@ -17,7 +18,7 @@
     
     CGSize size = CGSizeZero;
     
-    if (__DEVICE_OS_VERSION_7_0) {
+    if (iosNot6x) {
         size = [self boundingRectWithSize:sizeFormat
                                   options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading
                                attributes:dict

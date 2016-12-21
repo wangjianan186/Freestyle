@@ -7,6 +7,7 @@
 //
 
 #import "UITableView+Additions.h"
+#import "UIColor+Helper.h"
 
 @implementation UITableView (Additions)
 
