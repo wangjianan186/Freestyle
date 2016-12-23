@@ -98,6 +98,7 @@
 		6877C4791E0CFBFA00101B32 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6877C4761E0CFBFA00101B32 /* README.md */; };
 		6877C47A1E0CFBFA00101B32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6877C4781E0CFBFA00101B32 /* ViewController.m */; };
 		6877C47D1E0CFC7900101B32 /* CalculateMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6877C47C1E0CFC7900101B32 /* CalculateMemory.m */; };
+		6877C4811E0D024100101B32 /* ZCMD5andSha.m in Sources */ = {isa = PBXBuildFile; fileRef = 6877C4801E0D024100101B32 /* ZCMD5andSha.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -274,6 +275,8 @@
 		6877C4781E0CFBFA00101B32 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6877C47B1E0CFC7900101B32 /* CalculateMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateMemory.h; sourceTree = "<group>"; };
 		6877C47C1E0CFC7900101B32 /* CalculateMemory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateMemory.m; sourceTree = "<group>"; };
+		6877C47F1E0D024100101B32 /* ZCMD5andSha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCMD5andSha.h; sourceTree = "<group>"; };
+		6877C4801E0D024100101B32 /* ZCMD5andSha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCMD5andSha.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -327,6 +330,7 @@
 			children = (
 				033DDDB81E06BDF9008D5C23 /* JNBaseViewController.h */,
 				033DDDB91E06BDF9008D5C23 /* JNBaseViewController.m */,
+				6877C47E1E0D024100101B32 /* 加密算法SDK包 */,
 				6877C4751E0CFBFA00101B32 /* 关于内存的一些事儿 */,
 				6877C4711E0CFBF300101B32 /* 计算文件大小 和 self 与 _的区别 */,
 				6877C46B1E0CFBBA00101B32 /* 侧滑返回 沉浸式（自己封装） */,
@@ -721,6 +725,15 @@
 			path = "关于内存的一些事儿";
 			sourceTree = "<group>";
 		};
+		6877C47E1E0D024100101B32 /* 加密算法SDK包 */ = {
+			isa = PBXGroup;
+			children = (
+				6877C47F1E0D024100101B32 /* ZCMD5andSha.h */,
+				6877C4801E0D024100101B32 /* ZCMD5andSha.m */,
+			);
+			path = "加密算法SDK包";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -902,6 +915,7 @@
 				033DDE8C1E07AF4F008D5C23 /* NSString+Extend.m in Sources */,
 				033DDE411E07AECA008D5C23 /* UIDevice+Additions.m in Sources */,
 				033DDE8A1E07AF4F008D5C23 /* NSDate+Extend.m in Sources */,
+				6877C4811E0D024100101B32 /* ZCMD5andSha.m in Sources */,
 				033DDE861E07AF4F008D5C23 /* CALayer+Anim.m in Sources */,
 				033DDE461E07AECA008D5C23 /* UILabel+Additions.m in Sources */,
 				033DDDFA1E075B6F008D5C23 /* JNPerson.m in Sources */,
