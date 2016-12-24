@@ -89,7 +89,14 @@
 		033DDEDC1E07B035008D5C23 /* EA88047C-7110-4957-B60E-1138362E45D1.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 033DDEBB1E07B035008D5C23 /* EA88047C-7110-4957-B60E-1138362E45D1.codesnippet */; };
 		033DDEDD1E07B035008D5C23 /* F65133D4-D8C2-41E7-995C-4BAC8AE1D408.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 033DDEBC1E07B035008D5C23 /* F65133D4-D8C2-41E7-995C-4BAC8AE1D408.codesnippet */; };
 		033DDEDE1E07B035008D5C23 /* F8A76237-E623-4BCF-A768-EDDFA71F6940.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 033DDEBD1E07B035008D5C23 /* F8A76237-E623-4BCF-A768-EDDFA71F6940.codesnippet */; };
-		0386CD231E0DF33200979108 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0386CD221E0DF33200979108 /* View.xib */; };
+
+		6877C46F1E0CFBBA00101B32 /* JJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6877C46D1E0CFBBA00101B32 /* JJNavigationController.m */; };
+		6877C4701E0CFBBA00101B32 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6877C46E1E0CFBBA00101B32 /* README.md */; };
+		6877C4741E0CFBF300101B32 /* UILabel+StringFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6877C4731E0CFBF300101B32 /* UILabel+StringFrame.m */; };
+		6877C4791E0CFBFA00101B32 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6877C4761E0CFBFA00101B32 /* README.md */; };
+		6877C47A1E0CFBFA00101B32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6877C4781E0CFBFA00101B32 /* ViewController.m */; };
+		6877C47D1E0CFC7900101B32 /* CalculateMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6877C47C1E0CFC7900101B32 /* CalculateMemory.m */; };
+		6877C4811E0D024100101B32 /* ZCMD5andSha.m in Sources */ = {isa = PBXBuildFile; fileRef = 6877C4801E0D024100101B32 /* ZCMD5andSha.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -250,7 +257,19 @@
 		033DDEBE1E07B035008D5C23 /* CoreConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreConst.h; sourceTree = "<group>"; };
 		033DDEBF1E07B035008D5C23 /* Experience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Experience.h; sourceTree = "<group>"; };
 		033DDEC01E07B035008D5C23 /* iOS8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOS8.h; sourceTree = "<group>"; };
-		0386CD221E0DF33200979108 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+
+		6877C46C1E0CFBBA00101B32 /* JJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJNavigationController.h; sourceTree = "<group>"; };
+		6877C46D1E0CFBBA00101B32 /* JJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJNavigationController.m; sourceTree = "<group>"; };
+		6877C46E1E0CFBBA00101B32 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6877C4721E0CFBF300101B32 /* UILabel+StringFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+StringFrame.h"; sourceTree = "<group>"; };
+		6877C4731E0CFBF300101B32 /* UILabel+StringFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+StringFrame.m"; sourceTree = "<group>"; };
+		6877C4761E0CFBFA00101B32 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6877C4771E0CFBFA00101B32 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6877C4781E0CFBFA00101B32 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6877C47B1E0CFC7900101B32 /* CalculateMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateMemory.h; sourceTree = "<group>"; };
+		6877C47C1E0CFC7900101B32 /* CalculateMemory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateMemory.m; sourceTree = "<group>"; };
+		6877C47F1E0D024100101B32 /* ZCMD5andSha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCMD5andSha.h; sourceTree = "<group>"; };
+		6877C4801E0D024100101B32 /* ZCMD5andSha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCMD5andSha.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -304,7 +323,11 @@
 			children = (
 				033DDDB81E06BDF9008D5C23 /* JNBaseViewController.h */,
 				033DDDB91E06BDF9008D5C23 /* JNBaseViewController.m */,
-				0386CD221E0DF33200979108 /* View.xib */,
+
+				6877C47E1E0D024100101B32 /* 加密算法SDK包 */,
+				6877C4751E0CFBFA00101B32 /* 关于内存的一些事儿 */,
+				6877C4711E0CFBF300101B32 /* 计算文件大小 和 self 与 _的区别 */,
+				6877C46B1E0CFBBA00101B32 /* 侧滑返回 沉浸式（自己封装） */,
 				033DDE9C1E07B035008D5C23 /* FrameWorks */,
 				033DDE161E07AE7F008D5C23 /* Category */,
 				033DDE0F1E07ADCE008D5C23 /* UIViewCategpry */,
@@ -651,6 +674,46 @@
 			path = CodeSnippets;
 			sourceTree = "<group>";
 		};
+		6877C46B1E0CFBBA00101B32 /* 侧滑返回 沉浸式（自己封装） */ = {
+			isa = PBXGroup;
+			children = (
+				6877C46C1E0CFBBA00101B32 /* JJNavigationController.h */,
+				6877C46D1E0CFBBA00101B32 /* JJNavigationController.m */,
+				6877C46E1E0CFBBA00101B32 /* README.md */,
+			);
+			path = "侧滑返回 沉浸式（自己封装）";
+			sourceTree = "<group>";
+		};
+		6877C4711E0CFBF300101B32 /* 计算文件大小 和 self 与 _的区别 */ = {
+			isa = PBXGroup;
+			children = (
+				6877C47B1E0CFC7900101B32 /* CalculateMemory.h */,
+				6877C47C1E0CFC7900101B32 /* CalculateMemory.m */,
+				6877C4721E0CFBF300101B32 /* UILabel+StringFrame.h */,
+				6877C4731E0CFBF300101B32 /* UILabel+StringFrame.m */,
+			);
+			path = "计算文件大小 和 self 与 _的区别";
+			sourceTree = "<group>";
+		};
+		6877C4751E0CFBFA00101B32 /* 关于内存的一些事儿 */ = {
+			isa = PBXGroup;
+			children = (
+				6877C4761E0CFBFA00101B32 /* README.md */,
+				6877C4771E0CFBFA00101B32 /* ViewController.h */,
+				6877C4781E0CFBFA00101B32 /* ViewController.m */,
+			);
+			path = "关于内存的一些事儿";
+			sourceTree = "<group>";
+		};
+		6877C47E1E0D024100101B32 /* 加密算法SDK包 */ = {
+			isa = PBXGroup;
+			children = (
+				6877C47F1E0D024100101B32 /* ZCMD5andSha.h */,
+				6877C4801E0D024100101B32 /* ZCMD5andSha.m */,
+			);
+			path = "加密算法SDK包";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -820,6 +883,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				033DDE8D1E07AF4F008D5C23 /* NSString+Password.m in Sources */,
+				6877C4741E0CFBF300101B32 /* UILabel+StringFrame.m in Sources */,
 				033DDE3C1E07AECA008D5C23 /* NSObject+Additions.m in Sources */,
 				033DDE981E07AF4F008D5C23 /* UIImage+Water.m in Sources */,
 				033DDE961E07AF4F008D5C23 /* UIImage+Extend.m in Sources */,
@@ -832,12 +896,14 @@
 				033DDE8C1E07AF4F008D5C23 /* NSString+Extend.m in Sources */,
 				033DDE411E07AECA008D5C23 /* UIDevice+Additions.m in Sources */,
 				033DDE8A1E07AF4F008D5C23 /* NSDate+Extend.m in Sources */,
+				6877C4811E0D024100101B32 /* ZCMD5andSha.m in Sources */,
 				033DDE861E07AF4F008D5C23 /* CALayer+Anim.m in Sources */,
 				033DDE461E07AECA008D5C23 /* UILabel+Additions.m in Sources */,
 				033DDDFA1E075B6F008D5C23 /* JNPerson.m in Sources */,
 				033DDE901E07AF4F008D5C23 /* CheckTFModel.m in Sources */,
 				033DDE8B1E07AF4F008D5C23 /* NSObject+Extend.m in Sources */,
 				033DDDFD1E075E83008D5C23 /* JNPerson+CategoryName.m in Sources */,
+				6877C46F1E0CFBBA00101B32 /* JJNavigationController.m in Sources */,
 				033DDE3A1E07AECA008D5C23 /* NSFileManager+Additions.m in Sources */,
 				033DDE931E07AF4F008D5C23 /* UIFont+Extend.m in Sources */,
 				033DDD8A1E06B891008D5C23 /* AppDelegate.m in Sources */,
@@ -847,6 +913,7 @@
 				033DDE8E1E07AF4F008D5C23 /* UIBarButtonItem+Extend.m in Sources */,
 				033DDE491E07AECA008D5C23 /* UIView+Additions.m in Sources */,
 				033DDE921E07AF4F008D5C23 /* UIDevice+Extend.m in Sources */,
+				6877C4701E0CFBBA00101B32 /* README.md in Sources */,
 				033DDE121E07ADE3008D5C23 /* UIScrollView+MJExtension.m in Sources */,
 				033DDE941E07AF4F008D5C23 /* UIImage+Color.m in Sources */,
 				033DDE8F1E07AF4F008D5C23 /* UIColor+Extend.m in Sources */,
@@ -856,12 +923,15 @@
 				033DDE071E07A2CB008D5C23 /* UILabel+CalculateHeight.m in Sources */,
 				033DDD871E06B891008D5C23 /* main.m in Sources */,
 				033DDE971E07AF4F008D5C23 /* UIImage+FixOrientation.m in Sources */,
+				6877C4791E0CFBFA00101B32 /* README.md in Sources */,
+				6877C47D1E0CFC7900101B32 /* CalculateMemory.m in Sources */,
 				033DDE3F1E07AECA008D5C23 /* UIButton+Additions.m in Sources */,
 				033DDE471E07AECA008D5C23 /* UIScrollView+Additions.m in Sources */,
 				033DDE871E07AF4F008D5C23 /* CALayer+Transition.m in Sources */,
 				033DDE431E07AECA008D5C23 /* UIImage+Helper.m in Sources */,
 				033DDE481E07AECA008D5C23 /* UITableView+Additions.m in Sources */,
 				033DDE0E1E07AD5E008D5C23 /* NSObject+blcok.m in Sources */,
+				6877C47A1E0CFBFA00101B32 /* ViewController.m in Sources */,
 				033DDE151E07ADE9008D5C23 /* UIView+MJExtension.m in Sources */,
 				033DDDBA1E06BDF9008D5C23 /* JNBaseViewController.m in Sources */,
 				033DDE891E07AF4F008D5C23 /* NSArray+Extend.m in Sources */,
@@ -1016,6 +1086,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = monkey/runtime/monkey.pch;
 				INFOPLIST_FILE = monkey/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bigbang.monkey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1030,6 +1101,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = monkey/runtime/monkey.pch;
 				INFOPLIST_FILE = monkey/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bigbang.monkey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
