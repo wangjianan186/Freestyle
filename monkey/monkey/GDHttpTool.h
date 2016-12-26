@@ -5,6 +5,7 @@
 //  Created by Bigbang on 15-7-8.
 //  Copyright (c) 2015年 TTime. All rights reserved.
 //
+#if 0
 
 #import <Foundation/Foundation.h>
 #import <AFNetworking.h>
@@ -83,5 +84,5 @@
 + (instancetype)fileWithName:(NSString *)name data:(NSData *)data mimeType:(NSString *)mimeType filename:(NSString *)filename;
 @end
 
-
+#endif
 
