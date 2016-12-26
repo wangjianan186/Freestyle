@@ -98,6 +98,7 @@
 		6877C4811E0D024100101B32 /* ZCMD5andSha.m in Sources */ = {isa = PBXBuildFile; fileRef = 6877C4801E0D024100101B32 /* ZCMD5andSha.m */; };
 		688E9C391E10EAA20021F154 /* UIColor+RCColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 688E9C381E10EAA20021F154 /* UIColor+RCColor.m */; };
 		688E9C3C1E10FE800021F154 /* UIImage+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 688E9C3B1E10FE800021F154 /* UIImage+Utility.m */; };
+		689D92121E110A6500330D33 /* GDHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 689D92111E110A6500330D33 /* GDHttpTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -274,6 +275,8 @@
 		688E9C381E10EAA20021F154 /* UIColor+RCColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RCColor.m"; sourceTree = "<group>"; };
 		688E9C3A1E10FE800021F154 /* UIImage+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utility.h"; sourceTree = "<group>"; };
 		688E9C3B1E10FE800021F154 /* UIImage+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utility.m"; sourceTree = "<group>"; };
+		689D92101E110A6500330D33 /* GDHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDHttpTool.h; sourceTree = "<group>"; };
+		689D92111E110A6500330D33 /* GDHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDHttpTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -327,6 +330,8 @@
 			children = (
 				033DDDB81E06BDF9008D5C23 /* JNBaseViewController.h */,
 				033DDDB91E06BDF9008D5C23 /* JNBaseViewController.m */,
+				689D92101E110A6500330D33 /* GDHttpTool.h */,
+				689D92111E110A6500330D33 /* GDHttpTool.m */,
 				688E9C361E10EA900021F154 /* UIColorCategory */,
 				6877C47E1E0D024100101B32 /* 加密算法SDK包 */,
 				6877C4751E0CFBFA00101B32 /* 关于内存的一些事儿 */,
@@ -910,6 +915,7 @@
 				033DDE8C1E07AF4F008D5C23 /* NSString+Extend.m in Sources */,
 				033DDE411E07AECA008D5C23 /* UIDevice+Additions.m in Sources */,
 				033DDE8A1E07AF4F008D5C23 /* NSDate+Extend.m in Sources */,
+				689D92121E110A6500330D33 /* GDHttpTool.m in Sources */,
 				6877C4811E0D024100101B32 /* ZCMD5andSha.m in Sources */,
 				033DDE861E07AF4F008D5C23 /* CALayer+Anim.m in Sources */,
 				688E9C391E10EAA20021F154 /* UIColor+RCColor.m in Sources */,
