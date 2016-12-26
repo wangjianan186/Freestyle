@@ -99,6 +99,7 @@
 		6877C47A1E0CFBFA00101B32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6877C4781E0CFBFA00101B32 /* ViewController.m */; };
 		6877C47D1E0CFC7900101B32 /* CalculateMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6877C47C1E0CFC7900101B32 /* CalculateMemory.m */; };
 		6877C4811E0D024100101B32 /* ZCMD5andSha.m in Sources */ = {isa = PBXBuildFile; fileRef = 6877C4801E0D024100101B32 /* ZCMD5andSha.m */; };
+		688E9C391E10EAA20021F154 /* UIColor+RCColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 688E9C381E10EAA20021F154 /* UIColor+RCColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -277,6 +278,8 @@
 		6877C47C1E0CFC7900101B32 /* CalculateMemory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateMemory.m; sourceTree = "<group>"; };
 		6877C47F1E0D024100101B32 /* ZCMD5andSha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCMD5andSha.h; sourceTree = "<group>"; };
 		6877C4801E0D024100101B32 /* ZCMD5andSha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCMD5andSha.m; sourceTree = "<group>"; };
+		688E9C371E10EAA20021F154 /* UIColor+RCColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RCColor.h"; sourceTree = "<group>"; };
+		688E9C381E10EAA20021F154 /* UIColor+RCColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RCColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -330,6 +333,7 @@
 			children = (
 				033DDDB81E06BDF9008D5C23 /* JNBaseViewController.h */,
 				033DDDB91E06BDF9008D5C23 /* JNBaseViewController.m */,
+				688E9C361E10EA900021F154 /* UIColorCategory */,
 				6877C47E1E0D024100101B32 /* 加密算法SDK包 */,
 				6877C4751E0CFBFA00101B32 /* 关于内存的一些事儿 */,
 				6877C4711E0CFBF300101B32 /* 计算文件大小 和 self 与 _的区别 */,
@@ -734,6 +738,15 @@
 			path = "加密算法SDK包";
 			sourceTree = "<group>";
 		};
+		688E9C361E10EA900021F154 /* UIColorCategory */ = {
+			isa = PBXGroup;
+			children = (
+				688E9C371E10EAA20021F154 /* UIColor+RCColor.h */,
+				688E9C381E10EAA20021F154 /* UIColor+RCColor.m */,
+			);
+			path = UIColorCategory;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -917,6 +930,7 @@
 				033DDE8A1E07AF4F008D5C23 /* NSDate+Extend.m in Sources */,
 				6877C4811E0D024100101B32 /* ZCMD5andSha.m in Sources */,
 				033DDE861E07AF4F008D5C23 /* CALayer+Anim.m in Sources */,
+				688E9C391E10EAA20021F154 /* UIColor+RCColor.m in Sources */,
 				033DDE461E07AECA008D5C23 /* UILabel+Additions.m in Sources */,
 				033DDDFA1E075B6F008D5C23 /* JNPerson.m in Sources */,
 				033DDE9B1E07AF4F008D5C23 /* UIWindow+Launch.m in Sources */,
