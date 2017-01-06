@@ -8,21 +8,19 @@
 
 #import "JNBaseViewController.h"
 
-@interface JNBaseViewController ()
+@interface JNBaseViewController ()  //类扩展
+
+@property (nonatomic, strong) NSTimer *timer;
 
 @end
 
 @implementation JNBaseViewController
 
+#pragma mark - lifeCycle
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = RandomColor((arc4random()%256), (arc4random()%256), (arc4random()%256));
-
-//    敲 inlineBlock
-//    <#returnType#>(^<#blockName#>)(<#parameterTypes#>) = ^(<#parameters#>) {
-//        <#statements#>
-//    };
-    
 
 }
 
@@ -30,6 +28,37 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+#pragma mark - NSTimer 用法
+/**
+ 开启定时器
+ */
+- (void)startTimer {
+    NSTimeInterval timeInterval = 2.0;
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:timeInterval target:self selector:@selector(doSomething) userInfo:nil repeats:YES];
+    [[NSRunLoop mainRunLoop] addTimer:self.timer forMode:NSRunLoopCommonModes];
+
+}
+
+- (void)doSomething{ NSLog(@"do"); }
+
+/**
+ 关闭定时器
+ */
+- (void)stopTimer {
+
+    [self.timer invalidate];
+    self.timer = nil;
+}
+
+#pragma mark - 知识点
+
+
+//    敲 inlineBlock
+//    <#returnType#>(^<#blockName#>)(<#parameterTypes#>) = ^(<#parameters#>) {
+//        <#statements#>
+//    };
+
 
 /*
  如果你自己设计一套第三方框架，你会怎么设计 ？ 你会考虑哪些东西 ？

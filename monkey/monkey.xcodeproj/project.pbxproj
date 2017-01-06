@@ -89,7 +89,7 @@
 		033DDEDC1E07B035008D5C23 /* EA88047C-7110-4957-B60E-1138362E45D1.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 033DDEBB1E07B035008D5C23 /* EA88047C-7110-4957-B60E-1138362E45D1.codesnippet */; };
 		033DDEDD1E07B035008D5C23 /* F65133D4-D8C2-41E7-995C-4BAC8AE1D408.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 033DDEBC1E07B035008D5C23 /* F65133D4-D8C2-41E7-995C-4BAC8AE1D408.codesnippet */; };
 		033DDEDE1E07B035008D5C23 /* F8A76237-E623-4BCF-A768-EDDFA71F6940.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 033DDEBD1E07B035008D5C23 /* F8A76237-E623-4BCF-A768-EDDFA71F6940.codesnippet */; };
-
+		03EE9CF31E1EA9FB0013ED34 /* JNOriginalPriceLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE9CF21E1EA9FB0013ED34 /* JNOriginalPriceLabel.m */; };
 		6877C46F1E0CFBBA00101B32 /* JJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6877C46D1E0CFBBA00101B32 /* JJNavigationController.m */; };
 		6877C4701E0CFBBA00101B32 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6877C46E1E0CFBBA00101B32 /* README.md */; };
 		6877C4741E0CFBF300101B32 /* UILabel+StringFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6877C4731E0CFBF300101B32 /* UILabel+StringFrame.m */; };
@@ -257,7 +257,8 @@
 		033DDEBE1E07B035008D5C23 /* CoreConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreConst.h; sourceTree = "<group>"; };
 		033DDEBF1E07B035008D5C23 /* Experience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Experience.h; sourceTree = "<group>"; };
 		033DDEC01E07B035008D5C23 /* iOS8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOS8.h; sourceTree = "<group>"; };
-
+		03EE9CF11E1EA9FB0013ED34 /* JNOriginalPriceLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNOriginalPriceLabel.h; sourceTree = "<group>"; };
+		03EE9CF21E1EA9FB0013ED34 /* JNOriginalPriceLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNOriginalPriceLabel.m; sourceTree = "<group>"; };
 		6877C46C1E0CFBBA00101B32 /* JJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJNavigationController.h; sourceTree = "<group>"; };
 		6877C46D1E0CFBBA00101B32 /* JJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJNavigationController.m; sourceTree = "<group>"; };
 		6877C46E1E0CFBBA00101B32 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -323,7 +324,8 @@
 			children = (
 				033DDDB81E06BDF9008D5C23 /* JNBaseViewController.h */,
 				033DDDB91E06BDF9008D5C23 /* JNBaseViewController.m */,
-
+				03EE9CF11E1EA9FB0013ED34 /* JNOriginalPriceLabel.h */,
+				03EE9CF21E1EA9FB0013ED34 /* JNOriginalPriceLabel.m */,
 				6877C47E1E0D024100101B32 /* 加密算法SDK包 */,
 				6877C4751E0CFBFA00101B32 /* 关于内存的一些事儿 */,
 				6877C4711E0CFBF300101B32 /* 计算文件大小 和 self 与 _的区别 */,
@@ -832,7 +834,6 @@
 				033DDECE1E07B035008D5C23 /* 6F926535-11A2-49F2-ADF8-776BF4982361.codesnippet in Resources */,
 				033DDEC11E07B035008D5C23 /* 05D1EB67-DA6A-4AE2-AE04-A683B5065ECA.codesnippet in Resources */,
 				033DDED51E07B035008D5C23 /* C46BE3E3-0E1F-4467-BD41-D9AA632A0E83.codesnippet in Resources */,
-				0386CD231E0DF33200979108 /* View.xib in Resources */,
 				033DDEDB1E07B035008D5C23 /* EA467D07-0DA8-4A44-9496-2674C8D21C13.codesnippet in Resources */,
 				033DDD921E06B891008D5C23 /* Assets.xcassets in Resources */,
 				033DDEC71E07B035008D5C23 /* 34E99E58-FB7E-4AAE-9346-291A969ACBF2.codesnippet in Resources */,
@@ -908,6 +909,7 @@
 				033DDE931E07AF4F008D5C23 /* UIFont+Extend.m in Sources */,
 				033DDD8A1E06B891008D5C23 /* AppDelegate.m in Sources */,
 				033DDE401E07AECA008D5C23 /* UIColor+Helper.m in Sources */,
+				03EE9CF31E1EA9FB0013ED34 /* JNOriginalPriceLabel.m in Sources */,
 				033DDE421E07AECA008D5C23 /* UIFont+Additions.m in Sources */,
 				033DDE881E07AF4F008D5C23 /* CALayerAnimConst.m in Sources */,
 				033DDE8E1E07AF4F008D5C23 /* UIBarButtonItem+Extend.m in Sources */,
