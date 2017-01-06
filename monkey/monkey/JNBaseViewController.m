@@ -78,7 +78,32 @@
 */
 
 
-/* 
+/*
+ 代码上下移动快捷键    alt + command + [ / ]
+ 
+ 终端：
+ 撤销指令 : control + z / control + c
+ 
+ 调试:   断言   NSAssert
+ 
+ 方法收缩展开 ： command + option +shift + <  / >
+ 
+ LLDB  po
+ 
+ 先执行模块里的所有内容，之后在执行 delegate
+ 
+ 苹果 OS X 自带 Apache 服务器
+ 
+ = = = =  = = 上线后发布打包 要改成 Release
+ #if DEBUG
+ NSLog (@“测试”)；
+ #else
+ NSLog (@“上线”)；
+ #endif
+ */
+
+
+/*
     iOS 一些函数
  rand() ----随机数
  

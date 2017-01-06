@@ -90,6 +90,7 @@
 		033DDEDD1E07B035008D5C23 /* F65133D4-D8C2-41E7-995C-4BAC8AE1D408.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 033DDEBC1E07B035008D5C23 /* F65133D4-D8C2-41E7-995C-4BAC8AE1D408.codesnippet */; };
 		033DDEDE1E07B035008D5C23 /* F8A76237-E623-4BCF-A768-EDDFA71F6940.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 033DDEBD1E07B035008D5C23 /* F8A76237-E623-4BCF-A768-EDDFA71F6940.codesnippet */; };
 		03EE9CF31E1EA9FB0013ED34 /* JNOriginalPriceLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE9CF21E1EA9FB0013ED34 /* JNOriginalPriceLabel.m */; };
+
 		6877C46F1E0CFBBA00101B32 /* JJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6877C46D1E0CFBBA00101B32 /* JJNavigationController.m */; };
 		6877C4701E0CFBBA00101B32 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6877C46E1E0CFBBA00101B32 /* README.md */; };
 		6877C4741E0CFBF300101B32 /* UILabel+StringFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6877C4731E0CFBF300101B32 /* UILabel+StringFrame.m */; };
@@ -97,6 +98,9 @@
 		6877C47A1E0CFBFA00101B32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6877C4781E0CFBFA00101B32 /* ViewController.m */; };
 		6877C47D1E0CFC7900101B32 /* CalculateMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6877C47C1E0CFC7900101B32 /* CalculateMemory.m */; };
 		6877C4811E0D024100101B32 /* ZCMD5andSha.m in Sources */ = {isa = PBXBuildFile; fileRef = 6877C4801E0D024100101B32 /* ZCMD5andSha.m */; };
+		688E9C391E10EAA20021F154 /* UIColor+RCColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 688E9C381E10EAA20021F154 /* UIColor+RCColor.m */; };
+		688E9C3C1E10FE800021F154 /* UIImage+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 688E9C3B1E10FE800021F154 /* UIImage+Utility.m */; };
+		689D92121E110A6500330D33 /* GDHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 689D92111E110A6500330D33 /* GDHttpTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -259,6 +263,7 @@
 		033DDEC01E07B035008D5C23 /* iOS8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOS8.h; sourceTree = "<group>"; };
 		03EE9CF11E1EA9FB0013ED34 /* JNOriginalPriceLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNOriginalPriceLabel.h; sourceTree = "<group>"; };
 		03EE9CF21E1EA9FB0013ED34 /* JNOriginalPriceLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNOriginalPriceLabel.m; sourceTree = "<group>"; };
+
 		6877C46C1E0CFBBA00101B32 /* JJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJNavigationController.h; sourceTree = "<group>"; };
 		6877C46D1E0CFBBA00101B32 /* JJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJNavigationController.m; sourceTree = "<group>"; };
 		6877C46E1E0CFBBA00101B32 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -271,6 +276,12 @@
 		6877C47C1E0CFC7900101B32 /* CalculateMemory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateMemory.m; sourceTree = "<group>"; };
 		6877C47F1E0D024100101B32 /* ZCMD5andSha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCMD5andSha.h; sourceTree = "<group>"; };
 		6877C4801E0D024100101B32 /* ZCMD5andSha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCMD5andSha.m; sourceTree = "<group>"; };
+		688E9C371E10EAA20021F154 /* UIColor+RCColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RCColor.h"; sourceTree = "<group>"; };
+		688E9C381E10EAA20021F154 /* UIColor+RCColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RCColor.m"; sourceTree = "<group>"; };
+		688E9C3A1E10FE800021F154 /* UIImage+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utility.h"; sourceTree = "<group>"; };
+		688E9C3B1E10FE800021F154 /* UIImage+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utility.m"; sourceTree = "<group>"; };
+		689D92101E110A6500330D33 /* GDHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDHttpTool.h; sourceTree = "<group>"; };
+		689D92111E110A6500330D33 /* GDHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDHttpTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -326,6 +337,9 @@
 				033DDDB91E06BDF9008D5C23 /* JNBaseViewController.m */,
 				03EE9CF11E1EA9FB0013ED34 /* JNOriginalPriceLabel.h */,
 				03EE9CF21E1EA9FB0013ED34 /* JNOriginalPriceLabel.m */,
+				689D92101E110A6500330D33 /* GDHttpTool.h */,
+				689D92111E110A6500330D33 /* GDHttpTool.m */,
+				688E9C361E10EA900021F154 /* UIColorCategory */,
 				6877C47E1E0D024100101B32 /* 加密算法SDK包 */,
 				6877C4751E0CFBFA00101B32 /* 关于内存的一些事儿 */,
 				6877C4711E0CFBF300101B32 /* 计算文件大小 和 self 与 _的区别 */,
@@ -587,6 +601,8 @@
 		033DDE721E07AF4F008D5C23 /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
+				688E9C3A1E10FE800021F154 /* UIImage+Utility.h */,
+				688E9C3B1E10FE800021F154 /* UIImage+Utility.m */,
 				033DDE731E07AF4F008D5C23 /* UIImage+Color.h */,
 				033DDE741E07AF4F008D5C23 /* UIImage+Color.m */,
 				033DDE751E07AF4F008D5C23 /* UIImage+Cut.h */,
@@ -714,6 +730,15 @@
 				6877C4801E0D024100101B32 /* ZCMD5andSha.m */,
 			);
 			path = "加密算法SDK包";
+			sourceTree = "<group>";
+		};
+		688E9C361E10EA900021F154 /* UIColorCategory */ = {
+			isa = PBXGroup;
+			children = (
+				688E9C371E10EAA20021F154 /* UIColor+RCColor.h */,
+				688E9C381E10EAA20021F154 /* UIColor+RCColor.m */,
+			);
+			path = UIColorCategory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -897,8 +922,10 @@
 				033DDE8C1E07AF4F008D5C23 /* NSString+Extend.m in Sources */,
 				033DDE411E07AECA008D5C23 /* UIDevice+Additions.m in Sources */,
 				033DDE8A1E07AF4F008D5C23 /* NSDate+Extend.m in Sources */,
+				689D92121E110A6500330D33 /* GDHttpTool.m in Sources */,
 				6877C4811E0D024100101B32 /* ZCMD5andSha.m in Sources */,
 				033DDE861E07AF4F008D5C23 /* CALayer+Anim.m in Sources */,
+				688E9C391E10EAA20021F154 /* UIColor+RCColor.m in Sources */,
 				033DDE461E07AECA008D5C23 /* UILabel+Additions.m in Sources */,
 				033DDDFA1E075B6F008D5C23 /* JNPerson.m in Sources */,
 				033DDE901E07AF4F008D5C23 /* CheckTFModel.m in Sources */,
@@ -919,6 +946,7 @@
 				033DDE121E07ADE3008D5C23 /* UIScrollView+MJExtension.m in Sources */,
 				033DDE941E07AF4F008D5C23 /* UIImage+Color.m in Sources */,
 				033DDE8F1E07AF4F008D5C23 /* UIColor+Extend.m in Sources */,
+				688E9C3C1E10FE800021F154 /* UIImage+Utility.m in Sources */,
 				033DDE9A1E07AF4F008D5C23 /* UIView+Extend.m in Sources */,
 				033DDE031E079CA5008D5C23 /* NSString+extension.m in Sources */,
 				033DDE3E1E07AECA008D5C23 /* NSURL+Additions.m in Sources */,
