@@ -89,8 +89,8 @@
 		033DDEDC1E07B035008D5C23 /* EA88047C-7110-4957-B60E-1138362E45D1.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 033DDEBB1E07B035008D5C23 /* EA88047C-7110-4957-B60E-1138362E45D1.codesnippet */; };
 		033DDEDD1E07B035008D5C23 /* F65133D4-D8C2-41E7-995C-4BAC8AE1D408.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 033DDEBC1E07B035008D5C23 /* F65133D4-D8C2-41E7-995C-4BAC8AE1D408.codesnippet */; };
 		033DDEDE1E07B035008D5C23 /* F8A76237-E623-4BCF-A768-EDDFA71F6940.codesnippet in Resources */ = {isa = PBXBuildFile; fileRef = 033DDEBD1E07B035008D5C23 /* F8A76237-E623-4BCF-A768-EDDFA71F6940.codesnippet */; };
+		03EA0FCC1E27988C009A96E5 /* JNButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EA0FCB1E27988C009A96E5 /* JNButton.m */; };
 		03EE9CF31E1EA9FB0013ED34 /* JNOriginalPriceLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE9CF21E1EA9FB0013ED34 /* JNOriginalPriceLabel.m */; };
-
 		6877C46F1E0CFBBA00101B32 /* JJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6877C46D1E0CFBBA00101B32 /* JJNavigationController.m */; };
 		6877C4701E0CFBBA00101B32 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6877C46E1E0CFBBA00101B32 /* README.md */; };
 		6877C4741E0CFBF300101B32 /* UILabel+StringFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6877C4731E0CFBF300101B32 /* UILabel+StringFrame.m */; };
@@ -261,9 +261,10 @@
 		033DDEBE1E07B035008D5C23 /* CoreConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreConst.h; sourceTree = "<group>"; };
 		033DDEBF1E07B035008D5C23 /* Experience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Experience.h; sourceTree = "<group>"; };
 		033DDEC01E07B035008D5C23 /* iOS8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOS8.h; sourceTree = "<group>"; };
-		03EE9CF11E1EA9FB0013ED34 /* JNOriginalPriceLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNOriginalPriceLabel.h; sourceTree = "<group>"; };
-		03EE9CF21E1EA9FB0013ED34 /* JNOriginalPriceLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNOriginalPriceLabel.m; sourceTree = "<group>"; };
-
+		03EA0FCA1E27988C009A96E5 /* JNButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNButton.h; sourceTree = "<group>"; };
+		03EA0FCB1E27988C009A96E5 /* JNButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNButton.m; sourceTree = "<group>"; };
+		03EE9CF11E1EA9FB0013ED34 /* JNOriginalPriceLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JNOriginalPriceLabel.h; path = ../JNOriginalPriceLabel.h; sourceTree = "<group>"; };
+		03EE9CF21E1EA9FB0013ED34 /* JNOriginalPriceLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JNOriginalPriceLabel.m; path = ../JNOriginalPriceLabel.m; sourceTree = "<group>"; };
 		6877C46C1E0CFBBA00101B32 /* JJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJNavigationController.h; sourceTree = "<group>"; };
 		6877C46D1E0CFBBA00101B32 /* JJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJNavigationController.m; sourceTree = "<group>"; };
 		6877C46E1E0CFBBA00101B32 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -335,10 +336,9 @@
 			children = (
 				033DDDB81E06BDF9008D5C23 /* JNBaseViewController.h */,
 				033DDDB91E06BDF9008D5C23 /* JNBaseViewController.m */,
-				03EE9CF11E1EA9FB0013ED34 /* JNOriginalPriceLabel.h */,
-				03EE9CF21E1EA9FB0013ED34 /* JNOriginalPriceLabel.m */,
 				689D92101E110A6500330D33 /* GDHttpTool.h */,
 				689D92111E110A6500330D33 /* GDHttpTool.m */,
+				03EA0FC91E279853009A96E5 /* CustomView */,
 				688E9C361E10EA900021F154 /* UIColorCategory */,
 				6877C47E1E0D024100101B32 /* 加密算法SDK包 */,
 				6877C4751E0CFBFA00101B32 /* 关于内存的一些事儿 */,
@@ -692,6 +692,17 @@
 			path = CodeSnippets;
 			sourceTree = "<group>";
 		};
+		03EA0FC91E279853009A96E5 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				03EE9CF11E1EA9FB0013ED34 /* JNOriginalPriceLabel.h */,
+				03EE9CF21E1EA9FB0013ED34 /* JNOriginalPriceLabel.m */,
+				03EA0FCA1E27988C009A96E5 /* JNButton.h */,
+				03EA0FCB1E27988C009A96E5 /* JNButton.m */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
 		6877C46B1E0CFBBA00101B32 /* 侧滑返回 沉浸式（自己封装） */ = {
 			isa = PBXGroup;
 			children = (
@@ -921,6 +932,7 @@
 				033DDE0B1E07ACA6008D5C23 /* UILabel+Attributed.m in Sources */,
 				033DDE8C1E07AF4F008D5C23 /* NSString+Extend.m in Sources */,
 				033DDE411E07AECA008D5C23 /* UIDevice+Additions.m in Sources */,
+				03EA0FCC1E27988C009A96E5 /* JNButton.m in Sources */,
 				033DDE8A1E07AF4F008D5C23 /* NSDate+Extend.m in Sources */,
 				689D92121E110A6500330D33 /* GDHttpTool.m in Sources */,
 				6877C4811E0D024100101B32 /* ZCMD5andSha.m in Sources */,
